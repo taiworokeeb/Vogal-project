@@ -1,0 +1,534 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+        /* TOP */
+        .container1 {
+            width: 100%;
+            height: 50px;
+            background-color: black;
+            display: flex;
+            padding: .2rem;
+        }
+        
+        .contain-1 {
+            width: 55rem;
+            height: 30px;
+            background-color: black;
+            margin-left: 3rem;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        
+        .contain-2 {
+            width: 25rem;
+            height: 30px;
+            background-color: black;
+            margin-left: 3rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .p-text {
+            color: white;
+            padding-top: 1rem;
+            font-size: 15px;
+        
+        }
+        
+        
+        .img1 {
+            width: 17px;
+            position: absolute;
+            left: 78%;
+            top: 1.3rem;
+            transform: translateY(.2rem);
+        
+        }
+        
+        .paragraph {
+            color: white;
+            padding-top: 1rem;
+            font-size: 15px;
+            margin-right: -2rem;
+        }
+        
+                    /* CLOSING OF TOP */
+        
+        
+                    /* HEADER */
+        header {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .container2 {
+            background-color: white;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            min-width: 20%;
+            margin-right: 0px;
+        }
+        
+        .text {
+            color: black;
+        }
+        
+        #menu {
+            display: none;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .main-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 2rem;
+            list-style-type: none;
+            width:60%;
+        }
+        
+        .nav-links {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .submenu {
+            display: none;
+        }
+        
+        .tag .main-nav .nav-list:hover .submenu {
+            display: block;
+            position: absolute;
+            z-index: 10;
+            top: 2rem;
+        
+        }
+        
+        .main-nav .nav-list:hover .submenu .dropdown {
+            display: block;
+            height: 30rem;
+            margin-top: 7rem;
+            background-color: white;
+            min-height: 50vh;
+            list-style: none;
+            box-shadow: 1.7px 1.7px 9px 1px;
+            transform: translateX(-10rem);
+        
+        }
+        
+        .tag .main-nav .nav-list:hover .nav-links {
+            color: green;
+        }
+        
+        .main-nav .nav-list:hover .submenu .dropdown a {
+            text-decoration: none;
+        }
+        
+        .tag .main-nav .nav-list:hover .submenu .dropdown a {
+            color: black;
+        }
+        
+        
+        .main-nav .nav-list:hover .submenu .dropdown a {
+            color: green;
+        }
+        
+        .parent1 {
+            display: flex;
+            gap: 3rem;
+            line-height: 2rem;
+            padding: 5rem;
+            max-width: 100%;
+        }
+        
+        .parent2 {
+            display: flex;
+            gap: 2rem;
+            line-height: 2rem;
+            padding: 2rem 2rem;
+            font-size: 13px;
+        }
+        
+        .img2 {
+            width: 250px;
+            height: 350px;
+        }
+        
+        .parent3 {
+            gap: 6rem;
+            line-height: 2rem;
+            padding: 2rem;
+            height: 5rem;
+        }
+        
+        .parent4{
+            position: absolute;
+            width: 90%;
+            display: none;
+            justify-content: space-around;
+            gap: 20px;
+            left: 5%;
+            min-height: 220px;
+            background-color: white;
+            padding-top: 20px;
+            box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.281);
+        }
+        .parent4 div{
+            width: 20%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .parent4 div img{
+            width: 100%;
+            border-radius: 5px;
+        }
+        .deal:hover .submenu-deals .dropdown-deals .parent4{
+            display: flex;
+        }
+        .submenu_2 ul {
+            width: 200px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -20px;
+            height: 100px;
+            margin-left: 160px;
+            background-color: white;
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.213);
+            list-style-type: none;
+            padding-top: 20px;
+            display: none;
+        }
+        
+        .submenu_4 ul {
+            width: 200px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -20px;
+            height: 160px;
+            margin-left: 160px;
+            background-color: white;
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.213);
+            list-style-type: none;
+            padding-top: 20px;
+            display: none;
+        }
+        
+        .p3AboutUs:hover .submenu_2 ul,
+        .p3contactUs:hover .submenu_2 ul,
+        .p3PortFolioUs:hover .submenu_4 ul {
+            display: block;
+            color: green;
+        }
+        
+        .hot {
+            border: solid none;
+            background-color: #ED8F0C;
+            padding: 5px;
+            color: white;
+            font-size: 10px;
+        }
+        
+        .cool {
+            border: solid none;
+            background-color: rgb(221, 75, 221);
+            padding: 5px;
+            font-size: 10px;
+            color: white;
+        }
+        
+        .new {
+            border: solid none;
+            background-color: rgb(52, 176, 52);
+            padding: 5px;
+            font-size: 8px;
+            color: white;
+        }
+        
+        .bold {
+            border: solid none;
+            background-color: rgb(134, 134, 250);
+            padding: 5px;
+            font-size: 10px;
+            color: white;
+        }
+        
+        .submenu-2 {
+            display: none;
+        }
+        
+        .tag .main-nav .nav-list:hover .submenu .submenu-2 {
+            display: block;
+            position: absolute;
+            top: 2rem;
+        }
+        
+        .main-nav .nav-list:hover .submenu .dropdown .submenu-2 .dropdown-2 {
+            display: block;
+            height: 30rem;
+            margin-top: 5rem;
+            background-color: white;
+            min-height: 50vh;
+            list-style: none;
+            box-shadow: 1.7px 1.7px 9px 1px;
+        
+        
+        }
+        
+        .icons{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            column-gap: 15px;
+        
+        }
+        .icons a{
+            color: black;
+        }
+        
+        nav .icons a:hover{
+            color: #1ba46b;
+        }
+        
+                    /* CLOSING OF HEADER */
+        
+.directory{
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-left: 10%;
+    font-size: .8em;
+    word-spacing: 15px;
+}
+.directory a{
+    text-decoration: none;
+    color: black;
+}
+.title{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 2.5em;
+    font-family: serif;
+}
+.flexContainer{
+    min-height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexContainer .background{
+    border: thin solid #EEEEEE;
+    width: 43%;
+    min-height: 300px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.flexContainer div:nth-of-type(1) input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: thin solid #EEEEEE;
+    margin-top: 20px;
+    font-size: .9em;
+    padding: 0px 10px;
+}
+.flexContainer div p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: .8em;
+    line-height: 23px;
+    font-weight: 500;
+}
+.flexContainer div:nth-of-type(1) input:focus{
+    border: thin solid rgba(0, 0, 0, 0.375);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.053);
+    outline: none;
+}
+.flexContainer div:nth-of-type(1) .submitCarrier{
+    display: flex;
+    height: 70px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexContainer div button{
+    padding: 10px 25px;
+    color: white;
+    background-color: #333333;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.flexContainer div button:hover{
+    animation: color .3s ease-out forwards;
+}
+@keyframes color {
+    to{
+        background-color: rgb(37, 185, 37);
+    }
+}
+.flexContainer div:nth-of-type(1) .submitCarrier a{
+    text-decoration: none;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+.flexContainer div .createAcct{
+    margin-top: 30px;
+}
+
+        /* OPENING OF FOOTER */
+        footer {
+            min-height: 400px;
+            background-color: #F5F5F5;
+            padding-top: 70px;
+        }
+        
+        footer .linksCarrier {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+        footer .linksCarrier .footerimg {
+            width: 24%;
+        }
+        
+        footer .linksCarrier .footerimg img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        
+        footer .linksCarrier .footerimg h4 {
+            margin-bottom: 10px;
+        }
+        
+        footer .linksCarrier .footerimg i {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        footer .linksCarrier .footerimg a i{
+            color: black;
+        }
+        footer .linksCarrier .footerimg a i:hover{
+            color: #1ba46b;
+        }
+        footer .linksCarrier ul {
+            font-weight: 600;
+            list-style-type: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+        
+        footer .linksCarrier ul li {
+            font-weight: 400;
+            margin-top: 5px;
+            font-size: .9em;
+        }
+        
+        footer .linksCarrier ul input {
+            margin-top: 50px;
+            width: 60%;
+            padding: 2px 10px;
+        }
+        
+        footer .linksCarrier ul button {
+            background-color: #111111;
+            color: white;
+            border-radius: 0px 5px 5px 0px;
+            border: none;
+            padding: 5px 10px;
+        }
+        
+        footer .linksCarrier ul button:hover {
+            animation-name: colorChange;
+            animation-duration: .3s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+
+@media (max-width: 1000px) {
+    .flexContainer{
+        width: 95%;
+    }
+
+    .container2 {
+        padding: 10px;
+        font-size: .8em;
+        margin-top: 10px;
+    }
+
+    .container1 {
+        padding-left: 0;
+    }
+
+    .contain-1 #p-text1 {
+        display: none;
+    }
+
+    .contain-1 #p-text2 {
+        margin: auto;
+        text-align: center;
+    }
+
+
+    .contain-2 {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        margin-right: 5px;
+    }
+
+    .main-nav li {
+        display: none;
+    }
+.flexContainer div:nth-of-type(1) .submitCarrier a{
+    font-size: .7em;
+}
+}
+@media (max-width: 768px) {
+    .flexContainer{
+        display: block;
+        width: 100%;
+    }
+    .flexContainer .background{
+        width: 90%;
+        margin: auto;
+    }
+    .flexContainer div:nth-of-type(2){
+        margin-top: 50px;
+    }
+
+    footer .linksCarrier {
+        display: block;
+    }
+
+    footer .linksCarrier .footerimg {
+        width: 50%;
+        margin-left: 20px;
+    }
+}
+@media  (max-width :330){
+    .icons {
+        gap: -3px;
+        display: none;
+    }
+}
